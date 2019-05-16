@@ -1,5 +1,4 @@
-repourl = "https://github.com/jayme-anchante/dotfiles.git"
-
+repourl="https://github.com/jayme-anchante/dotfiles.git"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 echo ".cfg" >> .gitignore 
 git clone --bare $repourl $HOME/.cfg
